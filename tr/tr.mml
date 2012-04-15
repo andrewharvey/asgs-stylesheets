@@ -1,0 +1,33 @@
+{
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over", 
+  "Layer": [
+    {
+      "geometry": "linestring", 
+      "id": "tr", 
+      "Datasource": {
+        "type": "postgis", 
+        "geometry_field": "geom", 
+        "key_field": "", 
+        "table": "(\n SELECT\n   geom\n FROM\n   asgs_2011.tr\n) AS tr"
+      }, 
+      "name": "structure"
+    },
+    {
+      "geometry": "linestring", 
+      "id": "tr-label", 
+      "Datasource": {
+        "type": "postgis", 
+        "geometry_field": "geom", 
+        "key_field": "", 
+        "table": "(\n SELECT\n   geom,\n   name\n FROM\n   asgs_2011.tr\n WHERE\n   (name IS NOT NULL)\n) AS tr"
+      }, 
+      "name": "label"
+    }
+  ], 
+  "description": "ASGS 2011 Tourism Regions", 
+  "Stylesheet": [
+    "../structure.mss",
+    "labels.mss"
+  ], 
+  "name": "asgs_2011_tr"
+}
