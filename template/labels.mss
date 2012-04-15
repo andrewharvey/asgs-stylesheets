@@ -1,9 +1,9 @@
 #label[zoom >= 13] {
-  text-name: "[name]";
-  text-face-name: "Linden Hill Regular";
-  text-fill: black;
-  text-placement: point;
-  text-transform: uppercase;
+  text-name: @text_name;
+  text-face-name: @text_face_name;
+  text-fill: @text_fill;
+  text-placement: @text_placement;
+  text-transform: @text_transform;
 
   [zoom = 13] { text-size: 11; text-wrap-width: 50px; }
   [zoom = 14] { text-size: 15; text-character-spacing: 2; text-line-spacing: 6; text-wrap-width: 70px;}

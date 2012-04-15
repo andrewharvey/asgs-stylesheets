@@ -10,7 +10,6 @@
 Map { background-color: #FFFFFF; }
 
 #structure {
-
   /* outline */
   line-color: #000000;
   line-width: 0.75;
@@ -18,3 +17,9 @@ Map { background-color: #FFFFFF; }
   /* fill */
   polygon-fill: #FFFDD9;
 }
+
+@text_name: "[name]";
+@text_face_name: "Linden Hill Regular";
+@text_fill: black;
+@text_placement: point;
+@text_transform: uppercase;
