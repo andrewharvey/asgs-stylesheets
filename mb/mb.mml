@@ -8,7 +8,7 @@
         "type": "postgis", 
         "geometry_field": "geom", 
         "key_field": "", 
-        "table": "(\n SELECT\n   geom,\n   cat\n FROM\n   asgs_2011.mb\n) AS mb"
+        "table": "(\n SELECT\n   geom,\n   category\n FROM\n   asgs_2011.mb\n) AS mb"
       }, 
       "name": "mb"
     }

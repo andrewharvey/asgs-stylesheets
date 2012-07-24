@@ -15,34 +15,34 @@ Map { background-color: #FFFFFF; }
   line-width: 0.75;
 
   /* fill */
-  [cat='Residential'] {
+  [category='Residential'] {
     polygon-fill: #DDDDDD;
   }
-  [cat='Parkland'] {
+  [category='Parkland'] {
     polygon-fill: #CEF7CA;
   }
-  [cat='Agricultural'] {
+  [category='Agricultural'] {
     polygon-fill: #EAD8BD;
   }
-  [cat='Commercial'] {
+  [category='Commercial'] {
     polygon-fill: #F3D8D2;
   }
-  [cat='Education'] {
+  [category='Educategoryion'] {
     polygon-fill: #F0F0D8;
   }
-  [cat='Industrial'] {
+  [category='Industrial'] {
     polygon-fill: #DFD1D6;
   }
-  [cat='Water'] {
+  [category='Water'] {
     polygon-fill: #B5D0D0;
   }
-  [cat='Transport'] {
+  [category='Transport'] {
     polygon-fill: #B6B591;
   }
-  [cat='Hospital/Medical'] {
+  [category='Hospital/Medical'] {
     polygon-fill: #EBA4A4;
   }
-  [cat='Other'] {
+  [category='Other'] {
     polygon-fill: #000000;
   }
 }
