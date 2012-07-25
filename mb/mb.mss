@@ -27,7 +27,7 @@ Map { background-color: #FFFFFF; }
   [category='Commercial'] {
     polygon-fill: #F3D8D2;
   }
-  [category='Educategoryion'] {
+  [category='Education'] {
     polygon-fill: #F0F0D8;
   }
   [category='Industrial'] {
