@@ -2,9 +2,9 @@
 <!-- This is a port of the ASGS 2011 MB carto style from https://github.com/andrewharvey/asgs_2011-stylesheets/ -->
 <qgis version="1.9.90-Alpha" minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
   <transparencyLevelInt>255</transparencyLevelInt>
-  <classificationattribute>cat</classificationattribute>
+  <classificationattribute>category</classificationattribute>
   <uniquevalue>
-    <classificationfield>cat</classificationfield>
+    <classificationfield>category</classificationfield>
     <symbol>
       <lowervalue>Agricultural</lowervalue>
       <uppervalue>Agricultural</uppervalue>
@@ -200,7 +200,7 @@
     <selectedonly on=""/>
   </labelattributes>
   <edittypes>
-    <edittype type="0" name="cat"/>
+    <edittype type="0" name="category"/>
     <edittype type="0" name="code"/>
     <edittype type="0" name="gccsa"/>
     <edittype type="0" name="lga"/>
