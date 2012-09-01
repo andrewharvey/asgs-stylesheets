@@ -28,3 +28,11 @@ This is probably because the Debain build of Mapnik uses a font path of
 check the current path. I found setting this to `/usr/share/fonts/truetype`
 worked, either by changing this at Mapnik build time or by editing
 `/usr/share/pyshared/mapnik2/paths.py`.
+
+Palettes
+=============
+The palette directory contains plain text palettes which can be used for
+indexed PNG renderings to significantly reduce the file sizes without any
+noticeable difference.
+
+These palettes are in the format used by GIMP's Export Palette as Text.
